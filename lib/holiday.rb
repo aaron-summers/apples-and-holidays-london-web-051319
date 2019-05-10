@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
   array = holiday_hash[:winter].collect do |occasion, item|
     item
   end
-    
+    array.flatten
 end
 
 def all_holidays_with_bbq(holiday_hash)
