@@ -71,7 +71,8 @@ def all_supplies_in_holidays(holiday_hash)
     occasion.each do |occasion, items|
       occasion_array = occasion.to_s.split("_")
       new_occasion = []
-      
+      occasion_array.each do |x|
+        
       puts 
 end
 
