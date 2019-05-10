@@ -76,7 +76,7 @@ def all_supplies_in_holidays(holiday_hash)
       end
       occasion = new_occasion.join(" ")
       items = items.join(", ")
-      puts " #{occasion}: #{items}"
+      puts "#{occasion}: #{items}"
     end
   end
 end
