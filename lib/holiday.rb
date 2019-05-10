@@ -72,6 +72,7 @@ def all_supplies_in_holidays(holiday_hash)
       occasion_array = occasion.to_s.split("_")
       new_occasion = []
       occasion_array.each do |x|
+        new_occasion << x.capitalize!
         
       puts 
 end
