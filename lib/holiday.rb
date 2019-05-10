@@ -74,7 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
       occasion_array.each do |x|
         new_occasion << x.capitalize!
       end
-      occasion = new_occasion.join(" ")
+      occasion = new_occasion.join("")
       items = items.join(", ")
       puts "#{occasion}: #{items}"
     end
