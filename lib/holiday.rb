@@ -93,6 +93,7 @@ def all_holidays_with_bbq(holiday_hash)
         return event
       end
     end
+    flatten
 end
 
 
