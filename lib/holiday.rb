@@ -73,7 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
       new_occasion = []
       occasion_array.each do |x|
         new_occasion << x.capitalize!
-        
+      end
       puts 
 end
 
