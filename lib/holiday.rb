@@ -69,7 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, occasion|
     puts "#{season.to_s.capitalize!}:"
     occasion.each do |occasion, items|
-      occasion_array = occasion.to_s.split("_")
+      occasion_array = occasion.split("_")
       binding.pry
       new_occasion = []
       occasion_array.each do |x|
