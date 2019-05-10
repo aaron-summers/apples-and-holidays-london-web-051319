@@ -74,7 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
       occasion_array.each do |x|
         new_occasion << x.capitalize!
       end
-      holiday = 
+      occasion = new_occasion.join("")
 end
 
 def all_holidays_with_bbq(holiday_hash)
