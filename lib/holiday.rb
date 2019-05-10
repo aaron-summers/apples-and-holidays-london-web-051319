@@ -64,7 +64,8 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   
   array = holiday_hash[:winter].collect do |occasion, item|
-    
+    item
+  end
     
 end
 
