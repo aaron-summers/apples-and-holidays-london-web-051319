@@ -75,6 +75,7 @@ def all_supplies_in_holidays(holiday_hash)
         new_occasion << x.capitalize!
       end
       occasion = new_occasion.join(" ")
+      items 
 end
 
 def all_holidays_with_bbq(holiday_hash)
